@@ -1,0 +1,211 @@
+.home_mobie_responsive {
+  overflow: auto;
+}
+
+/* css for over all backgroung */
+.home_backgroung {
+  background: #72a1bf 0% 0% no-repeat padding-box;
+  min-height: 100vh;
+}
+
+/* over all content posision */
+.home_overall_content_position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* home button position */
+.home_button {
+  margin-top: 29px;
+  margin-left: 32px;
+  width: 84px;
+  height: 42px;
+  background: #f2faff;
+  border-radius: 4px;
+  border: none;
+
+  text-align: center;
+  letter-spacing: 0px;
+  color: #a0a3a5;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.home_button:hover {
+  background: #ffffff;
+}
+
+/* over all card size and boder radious */
+
+.overall_map_card {
+  width: 1137px;
+  min-height: 670px;
+  background: #074770 0% 0% no-repeat padding-box;
+  border-radius: 36px;
+  margin: 5px;
+  word-wrap: break-word;
+}
+
+/* card top sizes */
+.Homecard_top {
+  margin: 30px;
+  min-height: 151px;
+}
+
+/*card separated two pard */
+
+.home_card_separation {
+  display: grid;
+  grid-template-columns: 523px 614px;
+  min-height: 519px;
+  background: #f2faff 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 36px 36px;
+}
+
+/*card top submit button*/
+.Home_top_submit{
+    position: relative;
+    top: 15px;
+    width: 179px;
+    height: 42px;
+    background: #FFFFFF;
+    border-radius: 21px;
+    opacity: 0.49;
+    text-align: center;
+    color: #074770;
+    border: none;
+    font-weight: bold;
+}
+
+.Home_top_Add{
+  position: relative;
+  top: 15px;
+  width: 179px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 21px;
+  opacity: 1;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  color: #074770;
+  border: none;
+}
+
+.Home_top_overall_position{
+    display: flex;
+    align-items: center;
+    min-height: 151px;
+}
+.Home_top_submit_position{
+    
+    display: flex;
+    justify-content: flex-end;
+    width: 560px;
+}
+
+.Home_top_input{
+    display: grid;
+    grid-template-columns: 190px 140px 130px 1fr;
+    gap: 10px;
+}
+
+
+/*home input*/
+.h_inputone{
+background: #F2FAFF;
+border-radius: 4px;
+width: 179px;
+height: 42px;
+opacity: 1;
+outline: none;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+}
+
+.h_inputtwo{
+width: 120px;
+height: 42px;
+background: #F2FAFF;
+border-radius: 4px;
+opacity: 1;
+outline: none;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+}
+
+.h_inputthree{
+    width: 120px;
+height: 42px;
+background: #F2FAFF;
+border-radius: 4px;
+opacity: 1;
+outline: none;
+border-top-style: hidden;
+border-right-style: hidden;
+border-left-style: hidden;
+}
+
+/*css for lable*/
+.h_lable{
+text-align: left;
+font-size: 14px;
+letter-spacing: 0px;
+color: #A5C0D1;
+
+}
+
+/* css for left side home */
+.h_left_side_text{
+font-size: 19px;
+color: #123043;
+text-transform: uppercase;
+opacity: 1;
+margin-left: 1em;
+font-weight: bold;
+}
+
+.h_left_side_2_text{
+    margin-left: 1em;
+}
+
+.first_cell{
+    min-width: 300px;
+    text-align: left;
+}
+
+.sec_cell{
+    min-width:100px;
+    text-align: left;
+}
+
+.third_cell{
+    min-width: 100px;
+    text-align: left;
+}
+
+.h_show_Route{
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    align-items: flex-end;
+   
+}
+
+.show_route{
+width: 445px;
+height: 42px;
+background: #074770;
+border-radius: 21px;
+opacity: 1;
+outline: none;
+border: none;
+text-align: center;
+font-size:14px;
+color: #FFFFFF;
+opacity: 1;
+margin-bottom: 15px;
+}
