@@ -4,9 +4,7 @@ import MapContainer from "./googlemap";
 import "./Home.css";
 
 function Submit() {
-  const submit = () => {
-    window.alert("Kindly follow the UI procedure");
-  };
+  
   return (
     <>
       <div className="home_backgroung">
@@ -56,7 +54,6 @@ function Submit() {
                       <div className="Home_top_submit_position">
                        <Link to="/add"><button
                           className="Home_top_submit"
-                          onClick={submit}
                         >
                           Submit
                         </button>
@@ -71,6 +68,7 @@ function Submit() {
                   <div className="h_left_side_text">All Co-ordinates:</div>
                   <div className="h_left_side_2_text">
                     <table>
+                    <tbody>
                       <tr >
                       <td></td>
                         <td className="first_cell">My Co-ordinates</td>
@@ -95,7 +93,7 @@ function Submit() {
                         <td>----------</td>
                         <td>----------</td>
                       </tr>
-                      
+                      </tbody>
                     </table>
                     
                     <div className="h_show_Route">

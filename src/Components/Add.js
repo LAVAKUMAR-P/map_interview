@@ -7,17 +7,14 @@ function Add() {
   const[lat,setLat]=useState(0)
   const[lng,seLng]=useState(0)
   const[place,setPlace]=useState("");
-  const[length,setLength]=useState(1)
+  
   const[location,setlocation]=useState([])
 //   let location=[]
   const handleSubmit= (e)=>{
     e.preventDefault();
-    console.log(lat,lng,place);
     let currentData={lat,lng,place}
     // location.push(currentData)
     setlocation([...location,currentData])
-   console.log(location)
-   setLength(location.length)
   }
   return (
     <>

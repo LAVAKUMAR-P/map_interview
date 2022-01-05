@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import MapContainer from "./googlemap";
 import "./Home.css";
-
+(function () {
+ window.alert("kindly follow UI instruction => Click at Home (left top corner) Click on Submit=>Click on Add=>Click on Add, once again => Click on Show Route")
+})();
 function Home() {
-  const submit = () => {
-    window.alert("Kindly follow the UI procedure");
-  };
+ 
   return (
     <>
       <div className="home_backgroung">
@@ -56,7 +56,7 @@ function Home() {
                       <div className="Home_top_submit_position">
                         <button
                           className="Home_top_submit"
-                          onClick={submit}
+                          
                           disabled={true}
                         >
                           Submit
@@ -71,6 +71,7 @@ function Home() {
                   <div className="h_left_side_text">All Co-ordinates:</div>
                   <div className="h_left_side_2_text">
                     <table>
+                    <tbody>
                       <tr >
                       <td></td>
                         <td className="first_cell">My Co-ordinates</td>
@@ -95,7 +96,7 @@ function Home() {
                         <td>----------</td>
                         <td>----------</td>
                       </tr>
-                      
+                      </tbody>
                     </table>
                     
                     <div className="h_show_Route">
